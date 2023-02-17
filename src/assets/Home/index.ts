@@ -78,6 +78,10 @@ const homeStyle = () => ({
         }
     },
     topSection: {
+        "@media (max-width: 768px)": {
+            paddingBottom: "14rem !Important",
+            backgroundSize: "100vw auto"
+        },
         backgroundImage: `url(${MainImage})`,
         backgroundPosition: "bottom center",
         backgroundRepeat: "no-repeat",
@@ -223,7 +227,7 @@ const homeStyle = () => ({
         backgroundColor: "#25D366 !important",
         color: "white !important"
     },
-    
+
     container: {
         ...container,
         marginTop: "2rem"
